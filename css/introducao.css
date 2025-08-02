@@ -1,10 +1,10 @@
 .introducao {
   max-width: 1200px;
-  display: flex;
-  /* grid-template-columns: 1fr 2fr; */
+  display: GRID;
+  grid-template-columns: 1fr 2fr;
   padding: 60px 40px;
   margin: 0 auto;
-  gap: 100px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -37,5 +37,32 @@
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+  .introducao p {
+    font-size: 0.75rem;
+  }
+  .introducao h1::before {
+    width: 20px;
+    height: 20px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao img {
+    display: none;
   }
 }
