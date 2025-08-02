@@ -1,6 +1,6 @@
 .introducao {
   max-width: 1200px;
-  display: GRID;
+  display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 60px 40px;
   margin: 0 auto;
@@ -52,9 +52,10 @@
     font-size: 0.75rem;
   }
   .introducao h1::before {
-    width: 20px;
-    height: 20px;
-    left: 0px;
+    width: 30px;
+    height: 30px;
+    left: -6px;
+    top: 0px;
   }
 }
 

@@ -1,0 +1,34 @@
+.experiencia {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.experiencia-txt {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #141414;
+}
+
+.experiencia-1 {
+  background-color: #ededed;
+  padding: 20px 20px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.experiencia-info {
+  grid-column: 1;
+}
+
+.experiencia-titulo {
+  all: unset;
+  font-size: 1.175rem;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
