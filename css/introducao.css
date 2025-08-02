@@ -1,0 +1,41 @@
+.introducao {
+  max-width: 1200px;
+  display: flex;
+  /* grid-template-columns: 1fr 2fr; */
+  padding: 60px 40px;
+  margin: 0 auto;
+  gap: 100px;
+  align-items: center;
+}
+
+.introducao h1 {
+  font-size: 4rem;
+  line-height: 1.15;
+  margin-bottom: 30px;
+  position: relative;
+  color: #141414;
+}
+
+.introducao p {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #141414;
+}
+
+.introducao h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(../img/decoXL.svg) no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -50px;
+  z-index: -1;
+}
+
+@media (max-width: 1000px) {
+  .introducao h1 {
+    font-size: 3rem;
+  }
+}
