@@ -24,9 +24,9 @@ img {
 }
 
 .experiencia-subtitulo {
-  font-size: 4.5rem;
+  font-size: 5rem;
   line-height: 1.2;
   text-transform: uppercase;
-  color: #CCCCCC;
-align-content: center;
+  color: #cccccc;
+  align-content: top;
 }

@@ -35,5 +35,7 @@
     background-color: #fafafa;
     box-shadow: 2px 2px 2px #cccccc;
     border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 }
