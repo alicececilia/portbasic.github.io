@@ -22,3 +22,11 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.experiencia-subtitulo {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #CCCCCC;
+align-content: center;
+}

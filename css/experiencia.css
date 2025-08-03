@@ -32,3 +32,30 @@
   font-weight: 700;
   letter-spacing: 0.5px;
 }
+
+.experiencia-bio {
+  margin: 60px 0px 40px 0px;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.experiencia-txt{
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 800px){
+
+  .experiencia {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .experiencia-bio, .experiencia-txt {
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+.experiencia-titulo{
+  font-size: 1.1rem;
+}
+}
+
