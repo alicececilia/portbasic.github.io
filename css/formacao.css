@@ -1,0 +1,23 @@
+.formacao {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  position: relative;
+  top: 100px;
+  background-color: #141414;
+  color: #fafafa;
+}
+
+.formacao-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.formacao-infos {
+  background-color: black;
+  border-radius: 5px;
+}

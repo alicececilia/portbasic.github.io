@@ -23,10 +23,11 @@ img {
   display: block;
 }
 
-.experiencia-subtitulo {
-  font-size: 5rem;
+.subtitulo {
+  font-size: 6rem;
   line-height: 1.2;
   text-transform: uppercase;
   color: #cccccc;
-  align-content: top;
+  max-width: 5ch;
+  word-break: break-all;
 }
