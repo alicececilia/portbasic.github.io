@@ -79,6 +79,79 @@
 .formacao-extra h3 {
   padding-top: 60px;
   padding-bottom: 20px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.4;
+  text-transform: uppercase;
+  color: #8f8f8f;
+  position: relative;
+  font-weight: normal;
+}
+
+.formacao-extra h3::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../img/img/book.svg) no-repeat center center;
+  position: absolute;
+  left: -36px;
+}
+
+.cursos-extras h3::before {
+  background: url(../img/img/book.svg);
+}
+
+.idiomas h3::before {
+  background: url(../img/language.svg);
+}
+
+.formacao-extra li {
+  font-size: 1.175rem;
+  line-height: 1.4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+}
+
+/* responsivo */
+@media (max-width: 900px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    top: 0px;
+  }
+  .subtitulo {
+    top: 0px;
+    grid-template-columns: 1fr;
+    font-size: 5rem;
+    max-width: 12ch;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    left: 0px;
+    padding-top: 3px;
+  }
+}
+
+@media (max-width: 700px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    top: 0px;
+  }
+  .subtitulo {
+    top: 0px;
+    grid-template-columns: 1fr;
+    font-size: 4rem;
+    max-width: 12ch;
+  }
+  .formacao-txt {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+  .formacao-txt strong {
+    font-size: 1.125rem;
+    line-height: 1.2;
+  }
 }
