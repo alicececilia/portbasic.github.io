@@ -9,7 +9,19 @@
   padding: 100px 40px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 60px;
+  gap: 100px;
+  position: relative;
+}
+
+.formacao-container::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(../img/decoXL.svg) no-repeat center center;
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
 }
 
 .formacao .subtitulo {

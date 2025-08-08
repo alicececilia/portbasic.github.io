@@ -2,7 +2,7 @@ body {
   font-family: Fira Sans, Arial, sans-serif;
   margin: 0px;
   color: #141414;
-  margin-bottom: 1000px;
+  margin-bottom: max;
 }
 
 h1,
@@ -28,6 +28,6 @@ img {
   line-height: 1.2;
   text-transform: uppercase;
   color: #cccccc;
-  max-width: 5ch;
+  max-width: 4ch;
   word-break: break-all;
 }
