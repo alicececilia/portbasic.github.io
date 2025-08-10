@@ -1,5 +1,5 @@
 .formacao {
-  background-color: #141414;
+  background-color: #202020;
   color: #fafafa;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .formacao .subtitulo {
-  color: #000;
+  color: #000000;
 }
 
 .formacao-txt {
@@ -165,5 +165,57 @@
   .formacao-txt strong {
     font-size: 1.125rem;
     line-height: 1.2;
+  }
+}
+
+@media (max-width: 450px) {
+  .formacao .subtitulo {
+    top: 0px;
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+    max-width: 5ch;
+  }
+  .formacao-txt {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  .experiencia-txt {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  .formacao-tipo {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+  .formacao-curso {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+  .faculdade-instituicao {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 350px) {
+  .formacao .subtitulo {
+    top: 0px;
+    grid-template-columns: 1fr;
+    font-size: 2.5rem;
+    max-width: 5ch;
+  }
+}
+
+@media (max-width: 300px) {
+  .formacao-txt {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  .formacao-txt strong {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .formacao-extra li {
+    font-size: 1rem;
   }
 }

@@ -55,6 +55,7 @@
 /* card parte esquerda - nome do projeto e descrição do projeto */
 .experiencia-info {
   grid-column: 1;
+  position: relative;
 }
 
 /* titulo / nome do projeto */
@@ -181,6 +182,8 @@
   }
   .experiencia-txt {
     line-height: 1.3;
+    margin-top: 5px;
+    margin-bottom: 20px;
   }
   .experiencia-1 {
     grid-template-columns: 1fr;
@@ -188,27 +191,55 @@
   .experiencia-cargo,
   .experiencia-habilidades {
     margin-left: 0px;
+    margin-top: 10px;
   }
 }
 
-@media (max-width: 500px) {
-  /* .subtitulo {
+@media (max-width: 450px) {
+  .experiencia .subtitulo {
+    top: 0px;
+    grid-template-columns: 1fr;
+    font-size: 3rem;
+    max-width: 6ch;
+  }
+  .experiencia-bio {
     font-size: 1rem;
-    max-width: 1ch;
+    line-height: 1.2;
   }
-} */
-
-  @media (max-width: 450px) {
-    .experiencia-ano {
-      left: 0px;
-      top: 95px;
-    }
+  .experiencia-txt {
+    font-size: 1rem;
+    line-height: 1.2;
   }
+}
 
-  @media (max-width: 300px) {
-    .experiencia-ano {
-      left: 0px;
-      top: 110px;
-    }
+@media (max-width: 350px) {
+  .experiencia .subtitulo {
+    top: 0px;
+    grid-template-columns: 1fr;
+    font-size: 2.5rem;
+    max-width: 6ch;
+  }
+}
+
+@media (max-width: 300px) {
+  .experiencia-ano {
+    left: 0px;
+    top: 110px;
+  }
+  .experiencia-bio {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  .experiencia-bio strong {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  .experiencia-info p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  .experiencia-titulo,
+  .experiencia-cargo {
+    font-size: 1.1rem;
   }
 }
